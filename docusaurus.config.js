@@ -1,19 +1,19 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Research',
+  tagline: 'How long is forever?',
   url: 'https://vastorigins.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'vastorigins', // Usually your GitHub org/user name.
-  projectName: 'vastorigins.github.io', // Usually your repo name.
+  organizationName: 'vastorigins',
+  projectName: 'vastorigins.github.io',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Research',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -25,7 +25,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/vastorigins/vastorigins.github.io',
           label: 'GitHub',
           position: 'right',
         },
@@ -74,7 +74,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Where It All Started, Ltd. Built with Docusaurus.`,
     },
   },
   presets: [
