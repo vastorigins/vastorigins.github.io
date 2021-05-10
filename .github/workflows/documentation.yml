@@ -17,7 +17,7 @@ jobs:
           node-version: '14.x'
       - name: Test Build
         run: |
-          yarn install
+          yarn install --check-cache
           yarn build
   gh-release:
     if: github.event_name != 'pull_request'
@@ -37,5 +37,5 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "gh-actions"
-          yarn install --frozen-lockfile
+          yarn install --check-cache
           yarn deploy
