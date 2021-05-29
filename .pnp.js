@@ -75,7 +75,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@algolia/autocomplete-preset-algolia", "virtual:8b162d49411b0a6bb58dc2f54eb79e100856e09e470bb04cff93895b1898b42d73a7db57f2e0cde6ac33605cae2c40d14dd324e03f43f7332ccd1095c9df808a#npm:1.0.0-alpha.44"],
             ["@algolia/autocomplete-shared", "npm:1.0.0-alpha.44"],
-            ["@algolia/client-search", null],
+            ["@algolia/client-search", "npm:4.9.1"],
             ["@types/algolia__client-search", null],
             ["@types/algoliasearch", null],
             ["algoliasearch", "npm:4.9.1"]
@@ -2712,6 +2712,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@docsearch/react", "virtual:400385990ba7d3c3092fc821cf1b055197ff63dcd5ca3e24d0bbec39ed3f21cc5901af9a101523e410ff6d3571db5530ed21eeef0f1911fa50249bc09725e64c#npm:3.0.0-alpha.36"],
             ["@algolia/autocomplete-core", "npm:1.0.0-alpha.44"],
             ["@algolia/autocomplete-preset-algolia", "virtual:8b162d49411b0a6bb58dc2f54eb79e100856e09e470bb04cff93895b1898b42d73a7db57f2e0cde6ac33605cae2c40d14dd324e03f43f7332ccd1095c9df808a#npm:1.0.0-alpha.44"],
+            ["@algolia/client-search", "npm:4.9.1"],
             ["@docsearch/css", "npm:3.0.0-alpha.36"],
             ["@types/react", null],
             ["@types/react-dom", null],
@@ -3285,7 +3286,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prism-react-renderer", null],
             ["@types/react", null],
             ["@types/react-dom", null],
-            ["prism-react-renderer", null],
+            ["prism-react-renderer", "virtual:400385990ba7d3c3092fc821cf1b055197ff63dcd5ca3e24d0bbec39ed3f21cc5901af9a101523e410ff6d3571db5530ed21eeef0f1911fa50249bc09725e64c#npm:1.2.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:7c1dca6eac87ce61716fabcff2bfc637804ab054b34cb418ef9b629263e90d46da2c49f842aaf8d7c3e352b8f23cd8d61d34cd13db5e161b98d38fdacfb7c1fb#npm:17.0.2"],
             ["tslib", "npm:2.2.0"]
@@ -3325,6 +3326,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["clsx", "npm:1.1.1"],
             ["eta", "npm:1.12.1"],
             ["lodash", "npm:4.17.21"],
+            ["prism-react-renderer", "virtual:400385990ba7d3c3092fc821cf1b055197ff63dcd5ca3e24d0bbec39ed3f21cc5901af9a101523e410ff6d3571db5530ed21eeef0f1911fa50249bc09725e64c#npm:1.2.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:7c1dca6eac87ce61716fabcff2bfc637804ab054b34cb418ef9b629263e90d46da2c49f842aaf8d7c3e352b8f23cd8d61d34cd13db5e161b98d38fdacfb7c1fb#npm:17.0.2"]
           ],
@@ -7534,7 +7536,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["semver", "npm:5.7.1"],
             ["tapable", "npm:1.1.3"],
             ["typescript", null],
-            ["webpack", null],
+            ["webpack", "virtual:7c1dca6eac87ce61716fabcff2bfc637804ab054b34cb418ef9b629263e90d46da2c49f842aaf8d7c3e352b8f23cd8d61d34cd13db5e161b98d38fdacfb7c1fb#npm:5.38.1"],
             ["worker-rpc", "npm:0.1.1"]
           ],
           "packagePeers": [
@@ -12187,10 +12189,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
+        ["npm:1.2.1", {
+          "packageLocation": "./.yarn/cache/prism-react-renderer-npm-1.2.1-ffcc6f443d-b27670bd96.zip/node_modules/prism-react-renderer/",
+          "packageDependencies": [
+            ["prism-react-renderer", "npm:1.2.1"]
+          ],
+          "linkType": "SOFT",
+        }],
         ["virtual:01f58a14cecacaefcdc44b8aa5727a8eb1aa770db115d8c0f152b73545b1204caea85ba7b8bb741d36da986a732c7a6e9573e8b87d3bacc0850300d23ab54006#npm:1.2.0", {
           "packageLocation": "./.yarn/$$virtual/prism-react-renderer-virtual-65f17d8c44/0/cache/prism-react-renderer-npm-1.2.0-74d83304e8-794de7917d.zip/node_modules/prism-react-renderer/",
           "packageDependencies": [
             ["prism-react-renderer", "virtual:01f58a14cecacaefcdc44b8aa5727a8eb1aa770db115d8c0f152b73545b1204caea85ba7b8bb741d36da986a732c7a6e9573e8b87d3bacc0850300d23ab54006#npm:1.2.0"],
+            ["@types/react", null],
+            ["react", "npm:17.0.2"]
+          ],
+          "packagePeers": [
+            "@types/react",
+            "react"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:400385990ba7d3c3092fc821cf1b055197ff63dcd5ca3e24d0bbec39ed3f21cc5901af9a101523e410ff6d3571db5530ed21eeef0f1911fa50249bc09725e64c#npm:1.2.1", {
+          "packageLocation": "./.yarn/$$virtual/prism-react-renderer-virtual-0049b096ab/0/cache/prism-react-renderer-npm-1.2.1-ffcc6f443d-b27670bd96.zip/node_modules/prism-react-renderer/",
+          "packageDependencies": [
+            ["prism-react-renderer", "virtual:400385990ba7d3c3092fc821cf1b055197ff63dcd5ca3e24d0bbec39ed3f21cc5901af9a101523e410ff6d3571db5530ed21eeef0f1911fa50249bc09725e64c#npm:1.2.1"],
             ["@types/react", null],
             ["react", "npm:17.0.2"]
           ],
@@ -12525,7 +12547,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["recursive-readdir", "npm:2.2.2"],
             ["shell-quote", "npm:1.7.2"],
             ["strip-ansi", "npm:6.0.0"],
-            ["text-table", "npm:0.2.0"]
+            ["text-table", "npm:0.2.0"],
+            ["webpack", "virtual:7c1dca6eac87ce61716fabcff2bfc637804ab054b34cb418ef9b629263e90d46da2c49f842aaf8d7c3e352b8f23cd8d61d34cd13db5e161b98d38fdacfb7c1fb#npm:5.38.1"]
           ],
           "linkType": "HARD",
         }]

@@ -102,7 +102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/client-search@npm:4.9.1":
+"@algolia/client-search@npm:*, @algolia/client-search@npm:4.9.1":
   version: 4.9.1
   resolution: "@algolia/client-search@npm:4.9.1"
   dependencies:
@@ -9221,6 +9221,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"prism-react-renderer@npm:*":
+  version: 1.2.1
+  resolution: "prism-react-renderer@npm:1.2.1"
+  peerDependencies:
+    react: ">=0.14.9"
+  checksum: b27670bd96e4320075f9a2932d440b3025f9ce1ff64ddd8d8e71867701aabd6c9d2914d5deecb7bef7e92ed59baaef538a31559ca71c76efee3711a064f3e8ff
+  languageName: node
+  linkType: hard
+
 "prism-react-renderer@npm:^1.1.1":
   version: 1.2.0
   resolution: "prism-react-renderer@npm:1.2.0"
@@ -12014,6 +12023,42 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"webpack@npm:*, webpack@npm:latest":
+  version: 5.38.1
+  resolution: "webpack@npm:5.38.1"
+  dependencies:
+    "@types/eslint-scope": ^3.7.0
+    "@types/estree": ^0.0.47
+    "@webassemblyjs/ast": 1.11.0
+    "@webassemblyjs/wasm-edit": 1.11.0
+    "@webassemblyjs/wasm-parser": 1.11.0
+    acorn: ^8.2.1
+    browserslist: ^4.14.5
+    chrome-trace-event: ^1.0.2
+    enhanced-resolve: ^5.8.0
+    es-module-lexer: ^0.4.0
+    eslint-scope: 5.1.1
+    events: ^3.2.0
+    glob-to-regexp: ^0.4.1
+    graceful-fs: ^4.2.4
+    json-parse-better-errors: ^1.0.2
+    loader-runner: ^4.2.0
+    mime-types: ^2.1.27
+    neo-async: ^2.6.2
+    schema-utils: ^3.0.0
+    tapable: ^2.1.1
+    terser-webpack-plugin: ^5.1.1
+    watchpack: ^2.2.0
+    webpack-sources: ^2.3.0
+  peerDependenciesMeta:
+    webpack-cli:
+      optional: true
+  bin:
+    webpack: bin/webpack.js
+  checksum: c6bc39fc5880782d9eb9f2a1621fb03f8ce5071a6078e216118702446061440d42bbf845fe1ad7318ca91b117f8dd1bd53a3beafa3c9942002af99d7e5398ad2
+  languageName: node
+  linkType: hard
+
 "webpack@npm:^5.28.0":
   version: 5.36.2
   resolution: "webpack@npm:5.36.2"
@@ -12047,42 +12092,6 @@ fsevents@~2.3.1:
   bin:
     webpack: bin/webpack.js
   checksum: 221f75148a40809ce4c8c2f51e3510d716a75ba086ddd18f4d8313f2f18f18efce74b55bfee58223b8ae2d8bcab035d07d2a8f5690c3f3f6a4ce59d015879179
-  languageName: node
-  linkType: hard
-
-"webpack@npm:latest":
-  version: 5.38.1
-  resolution: "webpack@npm:5.38.1"
-  dependencies:
-    "@types/eslint-scope": ^3.7.0
-    "@types/estree": ^0.0.47
-    "@webassemblyjs/ast": 1.11.0
-    "@webassemblyjs/wasm-edit": 1.11.0
-    "@webassemblyjs/wasm-parser": 1.11.0
-    acorn: ^8.2.1
-    browserslist: ^4.14.5
-    chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.8.0
-    es-module-lexer: ^0.4.0
-    eslint-scope: 5.1.1
-    events: ^3.2.0
-    glob-to-regexp: ^0.4.1
-    graceful-fs: ^4.2.4
-    json-parse-better-errors: ^1.0.2
-    loader-runner: ^4.2.0
-    mime-types: ^2.1.27
-    neo-async: ^2.6.2
-    schema-utils: ^3.0.0
-    tapable: ^2.1.1
-    terser-webpack-plugin: ^5.1.1
-    watchpack: ^2.2.0
-    webpack-sources: ^2.3.0
-  peerDependenciesMeta:
-    webpack-cli:
-      optional: true
-  bin:
-    webpack: bin/webpack.js
-  checksum: c6bc39fc5880782d9eb9f2a1621fb03f8ce5071a6078e216118702446061440d42bbf845fe1ad7318ca91b117f8dd1bd53a3beafa3c9942002af99d7e5398ad2
   languageName: node
   linkType: hard
 

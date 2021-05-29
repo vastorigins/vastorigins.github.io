@@ -29,7 +29,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Ol' Research`}
+      title={`Home`}
       description="Contains research pages and tutorials about programming.">
       <HomepageHeader />
       <main>
