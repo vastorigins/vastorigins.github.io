@@ -1,0 +1,4 @@
+/.yarn/cache/** binary
+/.yarn/plugins/** binary
+/.yarn/releases/** binary
+/static/img/** binary

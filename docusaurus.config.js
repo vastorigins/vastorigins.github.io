@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Research',
+  title: 'O\'l Research',
   tagline: 'How long is forever?',
   url: 'https://vastorigins.github.io',
   baseUrl: '/',
@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'vastorigins.github.io',
   themeConfig: {
     navbar: {
-      title: 'Research',
+      title: 'O\'l Research',
       logo: {
         alt: 'Logo',
         src: 'img/logo.svg',
@@ -51,12 +51,12 @@ module.exports = {
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/vastorigins',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/vastorigins',
             },
           ],
         },
@@ -69,7 +69,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/vastorigins',
             },
           ],
         },
@@ -85,13 +85,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/vastorigins/vastorigins.github.io/tree/documentation/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/vastorigins/vastorigins.github.io/tree/documentation/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
