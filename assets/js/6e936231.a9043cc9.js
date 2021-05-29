@@ -1,0 +1,1 @@
+(self.webpackChunkvastorigins_github_io=self.webpackChunkvastorigins_github_io||[]).push([[433],{9549:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Hello","permalink":"/blog/hello-world"}]}')}}]);
