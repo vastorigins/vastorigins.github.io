@@ -1,8 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'O\'l Research',
+  title: 'Audentes Fortuna Iuvat',
   tagline: 'How long is forever?',
-  url: 'https://vastorigins.github.io',
+  url: 'https://research.vastorigins.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'vastorigins.github.io',
   themeConfig: {
     navbar: {
-      title: 'O\'l Research',
+      title: 'Audentes Fortuna Iuvat',
       logo: {
         alt: 'Logo',
         src: 'img/logo.svg',
