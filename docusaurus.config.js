@@ -18,12 +18,10 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
+          href: 'https://www.vastorigins.com', 
+          label: 'Blog', 
+          position: 'left'
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/vastorigins/vastorigins.github.io',
           label: 'GitHub',
@@ -38,8 +36,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Tutorials',
+              to: '/',
             },
           ],
         },
@@ -48,7 +46,7 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/vastorigins-tutorial',
             },
             {
               label: 'Facebook',
@@ -64,12 +62,16 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Portfolio',
+              href: 'https://portfolio.vastorigins.com',
+            },
+            {
+              label: 'Blog / Website',
+              href: 'https://www.vastorigins.com',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/vastorigins',
+              href: 'https://github.com/vastorigins/vastorigins.github.io',
             },
           ],
         },
@@ -83,16 +85,11 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          routeBasePath: '/',
           editUrl:
-            'https://github.com/vastorigins/vastorigins.github.io/tree/documentation/',
+            'https://github.com/vastorigins/vastorigins.github.io/edit/documentation/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/vastorigins/vastorigins.github.io/tree/documentation/blog/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
