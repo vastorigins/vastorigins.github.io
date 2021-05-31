@@ -8,7 +8,7 @@ In Docker Desktop for Windows the WSL2 version, you don't usually have options t
 
 The Docker Desktop data can be found originally in this location `%USERPROFILE%\AppData\Local\Docker\wsl\data`.
 
-## 🚚 Moving the Data 
+## 🚚 Export Docker Data 
 
 In order to make this work, first shutdown Docker Desktop. This can be done by right-clicking the system tray icon of Docker then from the context menu Quit Docker Destop.
 
@@ -39,7 +39,9 @@ This command below will delete `ext4.vhdx` from `%USERPROFILE%\AppData\Local\Doc
 wsl --unregister docker-desktop-data
 ```
 
-After that import `docker-desktop-data` back to WSL.
+## 🚛 Import Docker Data
+
+After export, we do import `docker-desktop-data` back to WSL.
 
 ```powershell
 wsl --import docker-desktop-data "D:\Docker" "D:\docker-desktop-data.tar" --version 2
@@ -49,7 +51,5 @@ The `ext4.vhdx` will now reside in the `D:\Docker` folder. Start Docker Desktop 
 
 If everything works out, you can now delete the tar archive you created earlier `D:\docker-desktop-data.tar`. Please don't delete the `ext4.vhdx`, otherwise you would lose all your images and containers in docker.
 
-> NOTE: In case docker icon turns red in Docker Desktop
-> try to clear the docker cache which can be found in
-> Docker Desktop settings.
+> In case docker icon turns red in Docker Desktop, clear the docker cache which can be found in Docker Desktop settings.
 
