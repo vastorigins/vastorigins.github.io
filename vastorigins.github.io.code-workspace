@@ -4,5 +4,12 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"workbench.colorCustomizations": {
+			"statusBar.background": "#a0e141",
+			"statusBar.foreground": "#15202b",
+			"statusBarItem.hoverBackground": "#88ce21"
+		},
+		"peacock.color": "#a0e141"
+	}
 }

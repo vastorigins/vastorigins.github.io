@@ -18,4 +18,20 @@ Also set istio to automatically inject Envoy sidecar proxies when deploying appl
 kubectl label namespace default istio-injection=enabled
 ```
 
+## Troubleshoot
+
+Determine if Kubernetes cluster is running in an environment that supports external load balancer.
+
+```bash
+kubectl get svc istio-ingressgateway -n istio-system
+```
+
+```bash
+istioctl analyze
+```
+
+```bash
+curl -H curl -s -I -HHost:keycloak.7f000101.nip.io http://127.0.0.1
+```
+
 [istio-releases]: https://github.com/istio/istio/releases
