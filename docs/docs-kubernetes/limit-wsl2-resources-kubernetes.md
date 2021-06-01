@@ -28,6 +28,6 @@ Get-Service LxssManager | Restart-Service
 
 You could also use the `wsl --shutdown` method to restart WSL. Check if the `vmmem` process still consumes beyond its limit.
 
-# Troubleshoot
+## Troubleshoot
 
-If the changes still not reflecting, try restarting your machine and also restart Docker Desktop.
+If the changes still not reflecting, try to restart your machine and also restart Docker Desktop.
