@@ -12,7 +12,7 @@ the resource consumption of WSL2.
 
 On your profile directory `%USERPROFILE%` create a new file named `.wslconfig`. Set it's content to the following:
 
-```toml
+```toml title="%USERPROFILE%\.wslconfig"
 [wsl2]
 memory=8GB
 processors=8
