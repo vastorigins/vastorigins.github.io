@@ -1,0 +1,40 @@
+{
+  "ignition": {
+    "version": "3.4.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "passwordHash": "$y$j9T$0qEebhqXMnIw27ziHJFGE0$QgN/O3lPGNuy1bVB3UKTCiU/oTgbqV1u2.eVtfhAKY2",
+        "sshAuthorizedKeys": [
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFGKt8r5xqQqVLQjrwlyLMbA8DT2/Ukmy8LwpdJ6VnS6 pastel@houz-gg",
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKuMurcswn+mbe6cdX/cALdM6JFrCm720ryJ89dUaIJH pastel@link-gg",
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFadc9XzsHoJT9n/EjBIMtMQVMQmeZ8mLh0mav08B/pn pastel@IFN0xFF.local",
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKI+VAPQyHK1GzlSINKrYwtJjcLYKfyAIw4SQvdl4niE ffimnsr@gmail.com",
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKh16GDCLz/aviNef5O5DvJals0pEbCk2Nfqy9BUFKpgvsEkt4u0wHPIUcCBAQ/oO3NMyTafQdkobR8TDwkY5YOcVHd4SsJ9nut5TjI3DCxJxMjh/juKGyJ3OTxxUGh2Un8T7qN22kT4hfDZpplL9m04rdv5Tk2P1mE9b4xbJnnOwRAIjK9KOT0LNi96vB6Puxnzt/8fnIJZQaMpcLJUbxxxejmEVCsaKHa+CkSdOcAocps/GqkOBIpa28F0SW58mB/tHLAGK0zBIHBumPe/jgqd52u/7bj/CGPuzho2N38MGAMZOwRRfCEMrk+GV2cEkibou+h6zMJK4pn0GecuFR ffimnsr@oasis"
+        ]
+      }
+    ]
+  },
+  "storage": {
+    "files": [
+      {
+        "path": "/etc/hostname",
+        "contents": {
+          "compression": "",
+          "source": "data:,dc2.vastorigins.net"
+        },
+        "mode": 420
+      }
+    ]
+  },
+  "systemd": {
+    "units": [
+      {
+        "enabled": true,
+        "name": "sshd.service"
+      }
+    ]
+  }
+}
